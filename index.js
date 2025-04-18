@@ -365,6 +365,22 @@ delete global.plugins[filename]
 }}}
 filesInit().then((_) => Object.keys(global.plugins)).catch(console.error);
 
+async function filesInit() {
+    for (const filename of readdirSync(pluginFolder).filter(pluginFilter)) {
+        try {
+            const file = global.__filename(join(pluginFolder, filename))
+            const module = await import(file)
+            global.plugins[filename] = module.default || module
+        } catch (e) {
+            conn.logger.error(e)
+            delete global.plugins[filename]
+        }
+    }
+
+    // Agrega este mensaje de depuración aquí
+    console.log('Plugins cargados:', Object.keys(global.plugins));
+}
+
 global.reload = async (_ev, filename) => {
 if (pluginFilter(filename)) {
 const dir = global.__filename(join(pluginFolder, filename), true);
