@@ -11,25 +11,26 @@ let handler = async (m, { conn, args }) => {
     
     let txt = `
 
-Hola! Soy  *${botname}*  ٩(˘◡˘)۶
-Aquí tienes la lista de comandos
+*¡𝙝𝙤𝙡𝙖👋!* 𝘴𝘰𝙮  *${botname}*  
+𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚𝙨 𝙢𝙞 𝙡𝙞𝙨𝙩𝙖 𝙙𝙚 𝙘𝙤𝙢𝙖𝙣𝙙𝙤𝙨 💝
 ╭┈ ↷
-│ᰔᩚ Cliente » @${userId.split('@')[0]}
-│❀ Modo » Publico
-│✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ⴵ Activada » ${uptime}
-│✰ Usuarios » ${totalreg}
-│✧ Comandos » ${totalCommands}
-│🜸 Baileys » Multi Device
+│ᰔᩚ 𝘾𝙡𝙞𝙚𝙣𝙩𝙚 »
+│° 𝘾𝙡𝙞𝙚𝙣𝙩𝙚 @${userId.split('@')[0]}
+│❀ 𝙈𝙤𝙙𝙤 » 𝙋𝙪𝙗𝙡𝙞𝙘𝙤
+│✦ 𝘽𝙤𝙩 » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
+│ⴵ 𝘼𝙘𝙩𝙞𝙫𝙖𝙙𝙖 » ${uptime}
+│✰ 𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨 » ${totalreg}
+│✧ 𝘾𝙤𝙢𝙖𝙣𝙙𝙤𝙨 » ${totalCommands}
+│🜸 𝘽𝙖𝙞𝙡𝙚𝙮𝙨 » 𝙈𝙪𝙡𝙩𝙞 𝘿𝙚𝙫𝙞𝙘𝙚
 ╰─────────────────
-Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
+𝘾𝙧𝙚𝙖 𝙪𝙣 *𝙎𝙪𝙗-𝘽𝙤𝙩* 𝙘𝙤𝙣 𝙩𝙪 𝙣ú𝙢𝙚𝙧𝙤 𝙪𝙩𝙞𝙡𝙞𝙯𝙖𝙣𝙙𝙤 *#qr* o *#𝙘𝙤𝙙𝙚*
 
-• :･ﾟ⊹˚• \`『 Info-Bot 』\` •˚⊹:･ﾟ•
+       *༺༒☨𝘼𝙦𝙪𝙞 𝙩𝙞𝙚𝙣𝙚𝙨 𝙢𝙞 𝙢𝙚𝙣𝙪☨༒༻*
 
 ❍ Comandos para ver estado e información de la Bot.
 ᰔᩚ *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
-ᰔᩚ *#uptime • #runtime*
+ᰔ💯 *#uptime • #runtime*
 > ✦ Ver tiempo activo o en linea de la Bot.
 ᰔᩚ *#sc • #script*
 > ✦ Link del repositorio oficial de la Bot
