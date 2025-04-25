@@ -21,7 +21,7 @@ let handler = async (m, { conn, args }) => {
 │✨ Comandos » ${totalCommands} ¡Un arsenal a tu disposición!
 │📡 Baileys » Multi Device ¡Conectado a todo!
 ╰─────────────────
-💰 ¡Crea tu propio *Sub-Bot* con tu número usando *#qr* o *#code* y domina el mundo! 😈
+💰 ¡Crea tu propio *Sub-Bot* con tu número usando *#qr* o *#code* y domina el mundo! 😈😈
 
 ╔═════════════════════════════╗
 ║ ℹ️ **INFO-BOT: ¡Todo sobre mí!** ℹ️ ║
